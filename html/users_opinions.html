@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackMate - Feedbacks</title>
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <a href="../index.html">
+        <img src="../img/img_logo-removebg-preview.png" alt="Logotipo TechMinds" class="logo">
+    </a>
+    <nav>
+        <ul>
+            <li class="li1"><a href="../index.html">Home</a></li>
+            <li class="li2"><a href="features.html">Features</a></li>
+            <li class="li-selected"><a href="users_opinions.html">Feedbacks</a></li>
+            <li class="li3"><a href="about.html">Team </a></li>
+        </ul>
+        <button class="ButtonGetInTouch" onclick="location.href='get_in_touch.html'">Get in Touch</button>
+    </nav>
+</header>
+
+<section class="about">
+    <h1>Your Opinion Matters!</h1>
+    <p>Here, you can get in touch with the review of some of our users and even write your own review. It really helps.</p>
+    <button class="button-yellow-badge"><a href="#modal">New Review</a></button>
+</section>
+<div class="users_opinions">
+    <div class="users_opinions-content">
+        <div class="opinion">
+            <img src="../img/PP-users/Nuno.png">
+            <h2>Nuno Ferreira</h2>
+            <p>- Trackmate is a very stable and consistent product. We value its rich functionality, speed and efficiency!</p>
+        </div>
+        <div class="opinion">
+            <img src="../img/PP-users/Armindo.png">
+            <h2>Armindo Faria</h2>
+            <p>- Really enjoying using Trackmate by Techminds, all the inline editing and the command dialog is so handy.</p>
+    
+        </div>
+        <div class="opinion">
+            <img src="../img/PP-users/Andre.png">
+            <h2>Andre Mendes</h2>
+            <p>- Trackmate puts users first, makes common pratices easy, and is a pleasure to use. If you want to simply get things done, go with Trackmate.</p>
+        </div>
+        <div class="opinion">
+            <img src="../img/PP-users/Helder.png">
+            <h2>Helder Silva</h2>
+            <p>- Trackmate by Techminds is good. Still needs tailoring and improvements but it is a great start.</p>
+        </div>
+    </div>
+</div>
+
+
+<div id="modal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <h2>Write your review</h2>
+        <form action="">
+            <br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="review">Review:</label>
+            <textarea id="review" name="review" required></textarea>
+            <br><br>
+            <label for="photo">Upload a Photo (optional):</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+            <br><br>
+            <button type="close" class="cancel" onclick="location.href='#'">Cancel</button>
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+<footer class="footer-links">
+    <div class="footer-content"> <p>&copy; 2024 TrackMate. All rights reserved.</p></div>
+    <button class="Button" onclick="location.href='faqs.html'">FAQs</button>
+    <button class="Button" onclick="location.href='contact.html'">Contact Us</button>
+    <button class="Button" onclick="location.href='terms.html'">Terms and Conditions</button>
+    <button class="Button" onclick="location.href='privacy.html'">Privacy Policy</button>
+</footer>
+</body>
+
+</html>
